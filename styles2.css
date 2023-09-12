@@ -14,7 +14,6 @@ body {
 .header,
 .body {
   background: white;
-  width: 600px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -65,9 +64,9 @@ img {
 
 .body-text {
   background: white;
-  width: fit-content;
   display: flex;
   flex-direction: column;
   padding: 20px;
   margin-top: -15px;
 }
+
