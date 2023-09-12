@@ -5,8 +5,10 @@ body {
 }
 
 .post {
+  width: 600px;
   display: flex;
   flex-flow: column;
+  margin: auto;
 }
 
 .header,
@@ -18,17 +20,19 @@ body {
   justify-content: flex-start;
   align-items: center;
   height: fit-content;
-  margin: auto;
 }
 
 .icon1,
-.icon2 {
+.icon2,
+.body-icons1,
+.body-icons2 {
   padding: 20px;
 }
 
 .icon2 {
-  position: relative;
-  left: 68%;
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .text {
@@ -46,34 +50,25 @@ h2 {
   font-weight: lighter;
 }
 
-.photo {
-  width: 600px;
-  margin: auto;
-}
-
 img {
   width: 100%;
 }
 
-.body-icons1,
-.body-icons2 {
-  padding: 20px;
+.body-icons1 {
+  width: 600px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .body-icons2 {
-  position: relative;
-  left: 62%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .body-text {
   background: white;
-  width: 600px;
-  height: 200px;
-  margin: auto;
-}
-
-p {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
   padding: 20px;
-  margin: 0;
-  margin-bottom: -20px;
 }
